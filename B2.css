@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    height: 56px;
+    width: 100%;
+    background-color: #007aff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 24px;
+}
+.header-list-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header-item {
+    list-style: none;
+    color: #ffffff;
+}
+.input{
+    width: 200px;
+    height: 30px;
+}
+img{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
